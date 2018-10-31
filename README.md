@@ -2,6 +2,8 @@
 
 A simple Lisp-Style protocol for communication
 
+![travis-ci build status](https://travis-ci.com/idata-shopee/pcp.svg?branch=master)
+
 ## Quick example
 
 ```scala
