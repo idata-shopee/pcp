@@ -78,6 +78,27 @@ class PcpTest extends org.scalatest.FunSuite {
       )
     )
 
-    assert(pureCallServer.execute("""["if", [">", 6, 4], 1, 2]""") == 1);
+    assert(pureCallServer.execute("""["if", [">", 6, 4], 1, 2]""") == 1)
+  }
+
+  test("purecall: if exception") {
+    val pureCallServer = new PcpServer(new Sandbox(Map[String, BoxFun]()))
+
+    assertThrows[Exception] {
+      pureCallServer.execute("""["if", 0]""")
+    }
+  }
+
+  test("purecall: raw data") {
+    val pureCallServer = new PcpServer(new Sandbox(Map[String, BoxFun]()))
+
+    assert(pureCallServer.execute("""["'", 1, 2, 3]""") == List(1, 2, 3));
+  }
+
+  test("missing function name") {
+    val pureCallServer = new PcpServer(new Sandbox(Map[String, BoxFun]()))
+    assertThrows[Exception] {
+      pureCallServer.execute("""["fun", 2, 3]""")
+    }
   }
 }
