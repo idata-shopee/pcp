@@ -7,7 +7,7 @@ A simple Lisp-Style protocol for communication
 ```scala
 package io.github.idata.pcp.example
 
-import io.github.shopee.idata.pcp.{PcpServer, Sandbox}
+import io.github.shopee.idata.pcp.{PcpServer, Sandbox, PcpClient}
 
 case class User(name: String, age: Int)
 
