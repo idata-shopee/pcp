@@ -4,6 +4,14 @@ A simple Lisp-Style protocol for communication
 
 ![travis-ci build status](https://travis-ci.com/idata-shopee/pcp.svg?branch=master)
 
+## Features
+
+- lisp style composation
+
+- function sanbox, user can control every functions and details by provide the sandbox
+
+- based on json grammer
+
 ## Quick example
 
 ```scala
