@@ -8,7 +8,7 @@ A simple Lisp-Style protocol for communication
 
 - lisp style composation
 
-- function sanbox, user can control every functions and details by provide the sandbox
+- function sanbox. User can control every function and detail by providing the sandbox
 
 - based on json grammer
 
