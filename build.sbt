@@ -1,6 +1,6 @@
 name := "pcp"
 organization := "io.github.idata-shopee"
-version := "0.1.0"
+version := "0.1.1"
 scalaVersion := "2.12.4"
 
 useGpg := true 
@@ -13,7 +13,7 @@ libraryDependencies ++= Seq(
   "io.github.idata-shopee" %% "klog" % "0.1.0",
 
   // JSON lib
-  "io.github.idata-shopee" %% "sjson" % "0.1.2",
+  "io.github.idata-shopee" %% "sjson" % "0.1.5",
 
   // test suite
   "org.scalatest" %% "scalatest" % "3.0.1" % Test
