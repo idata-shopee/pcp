@@ -1,6 +1,6 @@
-package io.github.shopee.idata.pcp
+package io.github.free.lock.pcp
 
-import io.github.shopee.idata.sjson.JSON
+import io.github.free.lock.sjson.JSON
 
 /**
   * you can write request data by using pure json or client api

@@ -1,5 +1,5 @@
 name := "pcp"
-organization := "io.github.idata-shopee"
+organization := "io.github.lock-free"
 version := "0.1.1"
 scalaVersion := "2.12.4"
 
@@ -10,10 +10,10 @@ publishTo := sonatypePublishTo.value
 
 libraryDependencies ++= Seq(
   // log lib
-  "io.github.idata-shopee" %% "klog" % "0.1.0",
+  "io.github.lock-free" %% "klog" % "0.1.0",
 
   // JSON lib
-  "io.github.idata-shopee" %% "sjson" % "0.1.5",
+  "io.github.lock-free" %% "sjson" % "0.2.0",
 
   // test suite
   "org.scalatest" %% "scalatest" % "3.0.1" % Test

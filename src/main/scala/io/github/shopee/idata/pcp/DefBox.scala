@@ -1,6 +1,6 @@
-package io.github.shopee.idata.pcp
+package io.github.free.lock.pcp
 
-import io.github.shopee.idata.sjson.JSON
+import io.github.free.lock.sjson.JSON
 
 object DefBox {
   def getDefaultBox() =

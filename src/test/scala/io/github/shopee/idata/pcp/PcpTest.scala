@@ -1,4 +1,4 @@
-package io.github.shopee.idata.pcp
+package io.github.free.lock.pcp
 
 class PcpTest extends org.scalatest.FunSuite {
   test("purecall: base") {

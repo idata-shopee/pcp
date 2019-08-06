@@ -2,7 +2,7 @@
 
 A simple Lisp-Style protocol for communication
 
-![travis-ci build status](https://travis-ci.com/idata-shopee/pcp.svg?branch=master)
+![travis-ci build status](https://travis-ci.com/lock-free/pcp.svg?branch=master)
 
 ## Features
 
@@ -15,9 +15,9 @@ A simple Lisp-Style protocol for communication
 ## Quick example
 
 ```scala
-package io.github.idata.pcp.example
+package io.github.free.lock.pcp.example
 
-import io.github.shopee.idata.pcp.{PcpServer, Sandbox, PcpClient}
+import io.github.free.lock.pcp.{PcpServer, Sandbox, PcpClient}
 
 case class User(name: String, age: Int)
 

@@ -1,4 +1,4 @@
-package io.github.shopee.idata.pcp
+package io.github.free.lock.pcp
 
 object CallableFun {
   type GeneralFun = (List[Any], PcpServer) => Any
